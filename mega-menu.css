@@ -1,0 +1,79 @@
+* {
+    box-sizing: border-box;
+  }
+  
+  body {
+    margin: 0;
+    font-family: 'poppins', sans-serif;
+  }
+  
+  .dropdown {
+    display: inline-block;
+    margin-right: 130px;
+  }
+  
+  .column h3{
+    color: black;
+  }
+
+  .column img{
+    height: 230px;
+  }
+
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background: url('./images/mega\ menu\ bg.png');
+    width: 100%;
+    left: 0;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    margin-top: 10px;
+    z-index: 3;
+  } 
+  
+  .dropdown-content .header {
+    background: linear-gradient(90deg, rgba(63,94,251,1) 0%, rgba(252,70,107,1) 100%);
+    padding: 16px;
+    color: rgb(255, 255, 255);
+    width: 100%;
+  }
+  
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+  
+  .column {
+    float: right;
+    width: 31%;
+    padding: 10px;
+    background-color: transparent;
+    height: 250px;
+  }
+  
+  .column a {
+    float: none;
+    color: rgb(0, 0, 0);
+    padding: 16px;
+    text-decoration: none;
+    display: block;
+    text-align: center;
+  }
+  
+  .column a:hover {
+    background-color: rgb(255, 255, 255);
+    border-radius: 15px;
+    transition: 0.8s;
+  }
+  
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+
+  .search{
+    width: 15%;
+    position: relative;
+    border-radius: 12px;
+}

@@ -1,0 +1,94 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Join with Nike</title>
+    <link rel="icon" href="./android-icon-192x192.png">
+    <link rel="stylesheet" href="join.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="common.css">
+    <link rel="stylesheet" href="mega-menu.css">
+    <link rel="icon" href="./images/nike main logo.png">
+</head>
+
+<body>
+    <div class="container">
+        <div class="container">
+            <nav class="navbar1">
+                <a href="account.html"><img src="./images/image-removebg-preview.png" class="logo" alt="logo"></a>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="index.html">Men</a></li>
+                    <li><a href="index.html">Women</a></li>
+                    <li><a href="index.html">Kids</a></li>
+                    <div class="dropdown">
+                        <li><a href="index.html">SALES</a></li>
+                        <div class="dropdown-content">
+                          <div class="header">
+                            <h2>Winter Sale</h2>
+                          </div>
+                          <div class="row">
+                            <div class="column">
+                              <img src="./images/nike-c,s.webp" alt="">
+                            </div>
+                            <div class="column">
+                              <h3>Shoes</h3>
+                              <a href="#">Link 1</a>
+                              <a href="#">Link 2</a>
+                              <a href="#">Link 3</a>
+                            </div>
+                            <div class="column">
+                              <h3>Clothes</h3>
+                              <a href="#">Link 1</a>
+                              <a href="#">Link 2</a>
+                              <a href="#">Link 3</a>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    <li>
+                        <form class="search-container">
+                            <input type="text" placeholder="Search">
+                            <i class="fa fa-search"></i>
+                        </form>
+                    </li>
+                   <a href="login.html"><button class="btn">LOGIN</button></label></a> 
+                </ul>
+            </nav>
+            <form id="form" action="/">
+                <h1>Join Now</h1>
+                <div class="input-control">
+                    <label for="username">Full Name</label>
+                    <input id="username" name="username" type="text" placeholder="Enter Fullname">
+                    <div class="error"></div>
+                </div>
+                <div class="input-control">
+                    <label for="email">Email</label>
+                    <input id="email" name="email" type="text" placeholder="Enter email address">
+                    <div class="error"></div>
+                </div>
+                <div class="input-control">
+                    <label for="phno">Phone No.</label>
+                    <input id="phno" name="phno" type="number" placeholder="Enter Phone Number ">
+                    <div class="error"></div>
+                </div>
+                <div class="input-control">
+                    <label for="password">Password</label>
+                    <input id="password" name="password" type="password" placeholder="Enter Password">
+                    <div class="error"></div>
+                </div>
+                <div class="input-control">
+                    <label for="password2">Password again</label>
+                    <input id="password2" name="password2" type="password" placeholder="Confirm Password">
+                    <div class="error"></div>
+                </div>
+                <button class="btn-join" id="btnjoin" type="submit">Sign Up</button>
+                <h4>Already Joined? , <a href="login.html">Login</a> here </h4>
+            </form>
+        </div>
+        <script src="join.js"></script>
+</body>
+
+</html>

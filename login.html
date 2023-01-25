@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="login.css">
+    <link rel="stylesheet" href="mega-menu.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>Login to Nike</title>
+    <link rel="icon" href="./images/nike main logo.png">
+</head>
+<body>
+    <div class="container">
+        <div class="navbar">
+            <a href="account.html"><img src="./images/image-removebg-preview.png" class="logo" alt="logo"></a>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="index.html">Men</a></li>
+                <li><a href="index.html">Women</a></li>
+                <li><a href="index.html">Kids</a></li>
+                
+                <div class="dropdown">
+                    <li><a href="index.html">SALES</a></li>
+                    <div class="dropdown-content">
+                      <div class="header">
+                        <h2>Winter Sale</h2>
+                      </div>
+                      <div class="row">
+                        <div class="column">
+                          <img src="./images/nike-c,s.webp" alt="">
+                        </div>
+                        <div class="column">
+                          <h3>Shoes</h3>
+                          <a href="#">Link 1</a>
+                          <a href="#">Link 2</a>
+                          <a href="#">Link 3</a>
+                        </div>
+                        <div class="column">
+                          <h3>Clothes</h3>
+                          <a href="#">Link 1</a>
+                          <a href="#">Link 2</a>
+                          <a href="#">Link 3</a>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  
+                <li>
+                    <form class="search-container">
+                      <input type="text" placeholder="Search">
+                      <i class="fa fa-search"></i>
+                    </form>
+                  </li>
+            </ul>
+        </div>
+        <form id="form" action="/">
+            <h1>Login</h1>
+            <div class="input-control">
+                <label for="username">Email</label>
+                <input id="username" name="username" type="text" placeholder="Enter Username or Email">
+                <div class="error"></div>
+            </div>
+             <div class="input-control">
+                <label for="password">Password</label>
+                <input id="password"name="password" type="password" placeholder="Enter Password">
+                <div class="error"></div>
+            </div>
+           <button class="btn-login"type="submit"><a href="account.html">Login</a></button>
+            <h4><a href="login.html">Forgot Password?</a></h4>
+            <h4>New user? <a href="join.html">Join</a> here</h4>
+        </form>
+      <script src="login.js"></script>  
+</body>
+</html>
